@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <section>
+        <article>
+        <h1>Que es un elemento posicionado</h1>
+        <p>La propiedad position de CSS especifica cómo un elemento es posicionado en el documento. Las propiedades top , right , bottom , y left determinan la ubicación final de los elementos posicionados.</p>
+        <p>Ejemplo:</p>
+        <div class="box" id="numb"></div>
+        </article>
+        <article>
+        <h1>Que es position relative, position aboslute y position fixed?</h1>
+        <p>Position Relative - Es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo, con base en los valores de top, right, bottom, and left. El desplazamiento no afecta la posición de ningún otro elemento.</p>
+        <p>Position Absolute - Es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado relativo a su ancestro posicionado más cercano, si lo hay; de lo contrario, se ubica relativo al bloque contenedor inicial.</p>
+        <p>Position Fixed - Es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado con relación al bloque contenedor,inicialmente establecido por el viewport, excepto cuando uno de sus ancestros tiene una propiedad transform, perspective, o filter establecida en algo que no sea "none"</p>
+        <p>Ejemplos:</p>
+        <p>Position Relative:</p>
+        <div class="box-r" id="n1"></div>
+        <div class="box-r" id="n2"></div>
+        <div class="box-r" id="n3"></div>
+        <div class="box-r" id="n4"></div>
+        <br><br>
+        <p>Position Absolute:</p>
+        <div class="box-a" id="uno"></div>
+        <div class="box-a" id="dos"></div>
+        <div class="box-a" id="tres"></div>
+        <div class="box-a" id="cuatro"></div>
+        <br><br>
+        <p>Position Fixed:</p>
+        <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue tortor eget pulvinar lobortis.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam ac dolor augue.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue tortor eget pulvinar lobortis.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam ac dolor augue.
+            </p>
+            <div class="box" id="one"></div>
+          </div>
+        </article>
+    </section>
+</body>
+</html>

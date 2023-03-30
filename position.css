@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+body{
+    background: peru;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    color: whitesmoke;
+}
+
+#numb{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: goldenrod;
+}
+
+.box-r{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+  
+#n2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+}
+
+  .box-a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: white;
+  }
+  
+#dos {
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    background: lawngreen;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+  
+  #one {
+    position: fixed;
+    top: 800px;
+    left: 900px;
+    background: blue;
+  }
+  
+  .text{
+    width: 500px;
+    height: 300px;
+    padding-left: 100px;
+  }
