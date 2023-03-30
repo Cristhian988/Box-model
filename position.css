@@ -14,6 +14,8 @@ body{
     background: goldenrod;
 }
 
+
+
 .box-r{
     display: inline-block;
     width: 100px;
@@ -29,6 +31,8 @@ body{
     background: blue;
 }
 
+
+
   .box-a {
     display: inline-block;
     width: 100px;
@@ -43,6 +47,8 @@ body{
     left: 400px;
     background: lawngreen;
 }
+
+
 
 .box {
     width: 100px;
@@ -63,3 +69,5 @@ body{
     height: 300px;
     padding-left: 100px;
   }
+
+  
