@@ -77,30 +77,60 @@ p{
 .text{
     width: 500px;
     height: 300px;
-    padding-left: 100px;
   }
 
 img{
   position: relative;
   left: 500px;
   top: 15px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 .amarillo {
     position: relative;
-    top:20px;
+    top:80px;
     left:300px;
-    background: rgb(236, 236, 82);
-    height: 100px;
-    width: 100px;
+    background: rgb(146, 144, 24);
+    height: 300px;
+    width: 300px;
+    margin-bottom: 200px;
   }
 
-.gris {
-    position: relative;
-    top:20px;
-    left:300px;
-    background: gray;
-    height: 100px;
-    width: 100px;
+  .position .top{
+    background: #228877;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 110px;
+    top: -55px;
   }
-  
+  .position .bottom{
+    background: #1e52b4;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 110px;
+    bottom: -55px;
+  }
+  .position .left{
+    background: #691430;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: -35px;
+    top: 85px;
+  }
+  .position .right{
+    background: #247913;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: -35px;
+    top: 85px;
+  }
+.position p{
+  text-align: center;
+  line-height: 75px;
+  border: 1px dashed;
+}
